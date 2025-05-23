@@ -22,7 +22,7 @@ Converting a `Vehicle` to JSON:
 string json = vehicle.ToJson();
 ```
 
-Alternatively, you can get the vehicle's `VehicleData` first and the turn it into JSON:
+Alternatively, you can get the vehicle's `VehicleData` first and then turn it into JSON:
 ```C#
 VehicleData vehicleData = vehicle.GetVehicleData();
 string json = vehicleData.ToJson();
