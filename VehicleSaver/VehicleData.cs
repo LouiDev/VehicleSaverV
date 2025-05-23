@@ -19,7 +19,7 @@ namespace VehicleSaver
         /// <summary>
         /// Creates a vehicle at the specified position with the specified heading from this vehicle data.
         /// </summary>
-        public void CreateVehicle(Vector3 spawnPos, float heading = 0f)
+        public Vehicle CreateVehicle(Vector3 spawnPos, float heading = 0f)
         {
             Vehicle vehicle = World.CreateVehicle(new Model(Model), spawnPos, heading);
             vehicle.Mods.InstallModKit();
@@ -48,6 +48,8 @@ namespace VehicleSaver
 
             foreach (var index in InstalledNeonLights)
                 vehicle.Mods.SetNeonLightsOn((VehicleNeonLight)index, true);
+
+            return vehicle;
         }
 
         public string ToJson() => new JavaScriptSerializer().Serialize(this);
