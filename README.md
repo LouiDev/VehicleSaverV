@@ -14,7 +14,7 @@ Vehicle data that can be converted:
 If you have suggestions, questions or feedback, hit me up on [Discord](https://discord.com/invite/U2KGVbj3uh), this is the quickest way to get a response!
 
 # How to use
-Download the **latest version** of [SHVDN3](https://github.com/scripthookvdotnet) & VehicleSaverV and add them to your prject.
+Download the **latest version** of [SHVDN3](https://github.com/scripthookvdotnet) & [VehicleSaverV](https://img.shields.io/github/v/release/louidev/VehicleSaverV) and add them to your prject.
 
 ## Converting to JSON
 Converting a `Vehicle` to JSON:
