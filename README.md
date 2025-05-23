@@ -1,5 +1,8 @@
 # VehicleSaverV
-VehicleSaveV is a simple library for [SHVDN3](https://github.com/scripthookvdotnet) allowing you to read / write `Vehicle`s from / as JSON objects.
+
+<a href="https://github.com/LouiDev/VehicleSaverV/releases">![Latest](https://img.shields.io/github/v/release/louidev/VehicleSaverV)</a>
+
+VehicleSaverV is a simple library for [SHVDN3](https://github.com/scripthookvdotnet) allowing you to read / write `Vehicle`s from / as JSON objects.
 
 Vehicle data that can be converted:
 - Vehicle model
@@ -7,6 +10,8 @@ Vehicle data that can be converted:
 - Vehicle mods
 - Vehicle neon lights
 - Vehicle license plate
+
+If you have suggestions, questions or feedback, hit me up on [Discord](https://discord.com/invite/U2KGVbj3uh), this is the quickest way to get a response!
 
 # How to use
 Download the **latest version** of [SHVDN3](https://github.com/scripthookvdotnet) & VehicleSaverV and add them to your prject.
@@ -33,6 +38,3 @@ You can then spawn the `Vehicle` from that data:
 ```C#
 Vehicle vehicle = vehicleData.CreateVehicle(spawnPosition, heading);
 ```
-
-# Contact me
-If you have suggestions, questions or feedback, hit me up on [Discord](https://discord.com/invite/U2KGVbj3uh), this is the quickest way to get a response!
