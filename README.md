@@ -3,7 +3,7 @@
 <a href="https://github.com/LouiDev/VehicleSaverV/releases">![Latest](https://img.shields.io/github/v/release/louidev/VehicleSaverV)</a>
 
 VehicleSaverV is a simple library for [SHVDN3](https://github.com/scripthookvdotnet) allowing you to read / write `Vehicle`s from / as JSON objects.
-Latest build can be found in [here](https://github.com/LouiDev/VehicleSaverV/releases).
+Latest build can be found [here](https://github.com/LouiDev/VehicleSaverV/releases).
 
 Vehicle data that can be converted:
 - Vehicle model
