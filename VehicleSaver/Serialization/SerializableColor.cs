@@ -1,17 +1,17 @@
 ﻿using System.Drawing;
 
-namespace VehicleSaver.Serilization
+namespace VehicleSaver.Serialization
 {
-    public class SerilizableColor
+    public class SerializableColor
     {
         public byte R { get; set; }
         public byte G { get; set; }
         public byte B { get; set; }
         public byte A { get; set; }
 
-        public SerilizableColor() { }
+        public SerializableColor() { }
 
-        public SerilizableColor(Color color)
+        public SerializableColor(Color color)
         {
             R = color.R;
             G = color.G;

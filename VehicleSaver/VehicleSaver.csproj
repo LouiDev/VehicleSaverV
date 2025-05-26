@@ -48,8 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Serilization\SerilizableColor.cs" />
-    <Compile Include="Serilization\SerilizableVehicleMod.cs" />
+    <Compile Include="Serialization\SerializableColor.cs" />
+    <Compile Include="Serialization\SerializableVehicleMod.cs" />
     <Compile Include="VehicleColors.cs" />
     <Compile Include="VehicleData.cs" />
     <Compile Include="VehicleExtensions.cs" />

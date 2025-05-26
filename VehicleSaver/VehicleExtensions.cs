@@ -3,7 +3,7 @@ using GTA.Native;
 using System;
 using System.Collections.Generic;
 using System.Web.Script.Serialization;
-using VehicleSaver.Serilization;
+using VehicleSaver.Serialization;
 
 namespace VehicleSaver
 {
@@ -15,13 +15,13 @@ namespace VehicleSaver
         /// <param name="vehicle"></param>
         public static VehicleData GetVehicleData(this Vehicle vehicle)
         {
-            List<SerilizableVehicleMod> mods = new List<SerilizableVehicleMod>();
+            List<SerializableVehicleMod> mods = new List<SerializableVehicleMod>();
             foreach (int type in Enum.GetValues(typeof(VehicleModType)))
             {
                 var mod = vehicle.Mods[(VehicleModType)type];
                 if (mod.Index != -1)
                 {
-                    mods.Add(new SerilizableVehicleMod
+                    mods.Add(new SerializableVehicleMod
                     {
                         Variation = mod.Variation,
                         Index = mod.Index,
@@ -64,10 +64,10 @@ namespace VehicleSaver
                     RimColor = (int)vehicle.Mods.RimColor,
                     DashboardColor = (int)vehicle.Mods.DashboardColor,
                     TrimColor = (int)vehicle.Mods.TrimColor,
-                    CustomPrimaryColor = new SerilizableColor(vehicle.Mods.CustomPrimaryColor),
-                    CustomSecondaryColor = new SerilizableColor(vehicle.Mods.CustomSecondaryColor),
-                    NeonLightsColor = new SerilizableColor(vehicle.Mods.NeonLightsColor),
-                    TireSmokeColor = new SerilizableColor(vehicle.Mods.TireSmokeColor)
+                    CustomPrimaryColor = new SerializableColor(vehicle.Mods.CustomPrimaryColor),
+                    CustomSecondaryColor = new SerializableColor(vehicle.Mods.CustomSecondaryColor),
+                    NeonLightsColor = new SerializableColor(vehicle.Mods.NeonLightsColor),
+                    TireSmokeColor = new SerializableColor(vehicle.Mods.TireSmokeColor)
                 },
             };
         }

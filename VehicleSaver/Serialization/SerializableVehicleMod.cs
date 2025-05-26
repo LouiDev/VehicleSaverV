@@ -1,6 +1,6 @@
-﻿namespace VehicleSaver.Serilization
+﻿namespace VehicleSaver.Serialization
 {
-    public class SerilizableVehicleMod
+    public class SerializableVehicleMod
     {
         public bool Variation { get; set; }
         public int Index { get; set; }

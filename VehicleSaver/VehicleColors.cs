@@ -1,4 +1,4 @@
-﻿using VehicleSaver.Serilization;
+﻿using VehicleSaver.Serialization;
 
 namespace VehicleSaver
 {
@@ -12,9 +12,9 @@ namespace VehicleSaver
         public int RimColor { get; set; }
         public int DashboardColor { get; set; }
         public int TrimColor { get; set; }
-        public SerilizableColor CustomPrimaryColor { get; set; }
-        public SerilizableColor CustomSecondaryColor { get; set; }
-        public SerilizableColor NeonLightsColor { get; set; }
-        public SerilizableColor TireSmokeColor { get; set; }
+        public SerializableColor CustomPrimaryColor { get; set; }
+        public SerializableColor CustomSecondaryColor { get; set; }
+        public SerializableColor NeonLightsColor { get; set; }
+        public SerializableColor TireSmokeColor { get; set; }
     }
 }

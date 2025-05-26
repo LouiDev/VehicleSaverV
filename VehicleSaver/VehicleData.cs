@@ -1,7 +1,7 @@
 ﻿using GTA;
 using GTA.Math;
 using System.Web.Script.Serialization;
-using VehicleSaver.Serilization;
+using VehicleSaver.Serialization;
 
 namespace VehicleSaver
 {
@@ -11,7 +11,7 @@ namespace VehicleSaver
         public int WheelType { get; set; }
         public int LicensePlateStyle { get; set; }
         public int Livery { get; set; }
-        public SerilizableVehicleMod[] InstalledMods { get; set; }
+        public SerializableVehicleMod[] InstalledMods { get; set; }
         public int[] InstalledToggleMods { get; set; }
         public int[] InstalledNeonLights { get; set; }
         public VehicleColors Colors { get; set; }
